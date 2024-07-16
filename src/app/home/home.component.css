@@ -6,7 +6,7 @@
 
 @media (max-width: 576px) {
     .carousel-image {
-        height: 200px; /* Adjust the height for smaller screens if needed */
+        height: 400px; /* Adjust the height for smaller screens if needed */
     }
 }
 
