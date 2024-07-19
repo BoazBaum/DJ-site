@@ -9,6 +9,8 @@ import { MusicComponent } from './music/music.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
+import {YouTubePlayer, YouTubePlayerModule} from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { FooterComponent } from './footer/footer.component';
     MusicComponent,
     ContactComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    YoutubePlayerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
