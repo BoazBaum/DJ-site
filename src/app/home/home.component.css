@@ -11,6 +11,20 @@
 }
 
 
-.paragraph{
+.paragraph-b{
     font-size: large;
+    color: #1C2023;
+}
+.paragraph-p{
+    font-size: large;
+    color: #1C2023;
+}
+
+.background-b{
+    background-color: #B8B6FF;
+  
+}
+
+.background-p{
+    background-color: #E2E4FF;
 }
