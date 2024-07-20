@@ -11,6 +11,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 import {YouTubePlayer, YouTubePlayerModule} from '@angular/youtube-player';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {YouTubePlayer, YouTubePlayerModule} from '@angular/youtube-player';
     ContactComponent,
     NavComponent,
     FooterComponent,
-    YoutubePlayerComponent
+    YoutubePlayerComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,

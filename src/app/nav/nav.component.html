@@ -7,14 +7,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav text-end m-1 mx-auto h5">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#about">אודות</a>
+            <li class="nav-item"(click)="closeNavbar()">
+              <a class="nav-link text-light" href="#about" >אודות</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" (click)="closeNavbar()">
               <a class="nav-link text-light" href="#music">סרטונים ומוזיקה</a>
             </li>
-            <li class="nav-item">
-              <!-- <a class="nav-link" routerLink="/contact">צור קשר</a> -->
+            <li class="nav-item" (click)="closeNavbar()">          
               <a class="nav-link text-light" href="#contact">צור קשר</a>
             </li>
         </ul>
