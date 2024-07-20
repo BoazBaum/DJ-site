@@ -7,6 +7,9 @@
 .navbar{
   background-color: #23008D;
 }
+.navbar-toggler{
+  background-color: #926EFF;
+}
 .navbar-brand:hover{
    color: #926EFF;
 }
