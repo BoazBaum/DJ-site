@@ -28,3 +28,12 @@
 .background-p{
     background-color: #E2E4FF;
 }
+
+.btn-submit{
+    background-color: #23008D;
+    color: #E2E4FF;
+}
+.btn-submit:hover{
+    background-color: #B8B6FF;
+    color: #1C2023;
+}
