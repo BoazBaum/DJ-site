@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-//import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
 import {YouTubePlayer, YouTubePlayerModule} from '@angular/youtube-player';
 import { VideosComponent } from './videos/videos.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -31,8 +32,9 @@ import { VideosComponent } from './videos/videos.component';
     BrowserModule,
     AppRoutingModule,
     YouTubePlayerModule,
-   // HttpClientModule,
-    FormsModule
+    HttpClientModule,
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
