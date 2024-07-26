@@ -1,8 +1,8 @@
 .sticky-navbar{
-    position: sticky;
-    top: 0;
-    z-index: 20; /* Set z-index to ensure navbar stays on top */
-  }
+  position: sticky;
+  top: 0;
+  z-index: 20; /* Set z-index to ensure navbar stays on top */
+}
 
 .navbar{
   background-color: #23008D;

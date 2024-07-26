@@ -4,18 +4,20 @@
     object-fit: cover; /* This ensures the image covers the area without stretching */
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     .carousel-image {
-        height: 300px; /* Adjust the height for smaller screens if needed */
+      height: 400px;
     }
-}
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-image {
+      height: 300px;
+    }
+  }
+  
 
-
-.paragraph-b{
-    font-size: large;
-    color: #1C2023;
-}
-.paragraph-p{
+.paragraph{
     font-size: large;
     color: #1C2023;
 }
@@ -25,7 +27,7 @@
   
 }
 
-.background-p{
+.background-lb{
     background-color: #E2E4FF;
 }
 
