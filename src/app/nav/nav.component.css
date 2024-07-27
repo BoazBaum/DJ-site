@@ -1,7 +1,8 @@
 .sticky-navbar{
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 20; /* Set z-index to ensure navbar stays on top */
+  width: 100%;
+  z-index: 100; /* Set z-index to ensure navbar stays on top */
 }
 
 .navbar{
